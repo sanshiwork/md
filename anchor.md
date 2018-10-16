@@ -69,7 +69,7 @@ anchor.socket.client.timeout=-1
 1. 手机、浏览器终端使用WebSocket协议连接Frontend。
 2. Frontend与所有Backend使用TCP协议连接。
 3. Frontend和Backend使用本框架提供的异步任务服务调用三方服务，如Http接口，数据库，缓存等。
-![](./assets/img/ANCHOR_NET_V1.png)
+![](https://raw.githubusercontent.com/zhangleiasj/md/master/assets/anchor/img/ANCHOR_NET_V1.png)
 
 工程目录
 --------
@@ -142,7 +142,7 @@ eventService.send(new Event<Player>() {
 框架提供了2个线程池:
 1. Frontend中用于维护与Backend的TCP连接而定义的Socket监控线程池（断线重连）
 2. Tick主逻辑线程池。
-![](./assets/img/TICK_SERVICE_V1.png)
+![](https://raw.githubusercontent.com/zhangleiasj/md/master/assets/anchor/img/TICK_SERVICE_V1.png)
 
 命令行构建
 --------
